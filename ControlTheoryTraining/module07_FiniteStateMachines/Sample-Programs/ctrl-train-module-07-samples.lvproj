@@ -11,7 +11,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Module-07-Finite-State-Machines" Type="Folder">
+			<Item Name="CubeGrabeState_ENUM.ctl" Type="VI" URL="../CubeGrabeState_ENUM.ctl"/>
 			<Item Name="module-07-sample-7-1-ALT.vi" Type="VI" URL="../module-07-sample-7-1-ALT.vi"/>
+			<Item Name="module-07-sample-7-1-ALT2.vi" Type="VI" URL="../module-07-sample-7-1-ALT2.vi"/>
 			<Item Name="module-07-sample-7-1.vi" Type="VI" URL="../module-07-sample-7-1.vi"/>
 		</Item>
 		<Item Name="CtrlTrainingLibary_Protected.lvlib" Type="Library" URL="../../../samples-common-library/Ctrl_Training_Library_Protected/CtrlTrainingLibary_Protected.lvlib"/>
@@ -29,7 +31,9 @@
 				<Item Name="FPGA_SystemOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemOpen.vi"/>
 				<Item Name="FPGA_SystemStart Async Agent.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemStart Async Agent.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="NetComm_SendMessage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_SendMessage.vi"/>
 				<Item Name="NetComm_UnloadCPPStartupProgram.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UnloadCPPStartupProgram.vi"/>
+				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
@@ -42,8 +46,13 @@
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="WPI_UtilitiesFRC Build Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC Build Error.vi"/>
+				<Item Name="WPI_UtilitiesFRC SendMessageToConsole.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC SendMessageToConsole.vi"/>
 			</Item>
+			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
@@ -63,7 +72,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3B634E1B-9383-438E-86D4-6C9455EE9F4C}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ctrl-train-mod-07-sample-7-1.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../exe/ctrl-train-mod-07-sample-7-1.exe</Property>
@@ -104,7 +113,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{09D9A9AD-CCC6-4709-8859-5EEDD48DF108}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ctrl-train-mod-07-sample-7-1ALT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../exe/ctrl-train-mod-07-sample-7-1ALT.exe</Property>
@@ -131,6 +140,53 @@
 				<Property Name="TgtF_productName" Type="Str">control theory training</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A1167DD4-26E4-46FD-9B2C-536B895E3BC4}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">ctrl-train-mod-07-sample-7-1ALT.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="module-07-sample-7-1ALT2" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{90B848C3-78FE-4039-80A6-A53E1DB6936E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{1CB3CC19-CCBB-4321-A106-E86A3F5DD5ED}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{9A2A2E86-7BAD-4C26-8D22-85529450C6E9}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">module-07-sample-7-1ALT2</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../exe</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{95A023C7-D969-4D6B-BB74-62F373C897D7}</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">ctrl-train-mod-07-sample-7-1ALT2.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../exe/ctrl-train-mod-07-sample-7-1ALT2.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../exe/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1F35EF71-D7F0-4BC6-ABAA-1F8E33DBE13D}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Module-07-Finite-State-Machines/module-07-sample-7-1.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Module-07-Finite-State-Machines/module-07-sample-7-1-ALT.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Module-07-Finite-State-Machines/module-07-sample-7-1-ALT2.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">state machine sample with ENUM</Property>
+				<Property Name="TgtF_internalName" Type="Str">control theory training</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Jim Simpson</Property>
+				<Property Name="TgtF_productName" Type="Str">control theory training</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{9C134C22-3004-4640-8D35-49838A8F2FC5}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">ctrl-train-mod-07-sample-7-1ALT2.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
