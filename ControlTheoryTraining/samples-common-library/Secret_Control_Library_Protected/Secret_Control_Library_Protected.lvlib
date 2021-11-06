@@ -12,5 +12,6 @@
 	<Item Name="Gyro_Continuous_RAD.vi" Type="VI" URL="../Gyro_Continuous_RAD.vi"/>
 	<Item Name="JOY_NORM.vi" Type="VI" URL="../JOY_NORM.vi"/>
 	<Item Name="Position_Control.vi" Type="VI" URL="../Position_Control.vi"/>
+	<Item Name="ReadMe.txt" Type="Document" URL="../ReadMe.txt"/>
 </Library>
-<?sig 73423DBDDD2B209EEE44D89437CF9DC1?>
+<?sig 6D31F4F0095E25971D793680439A2D1C?>

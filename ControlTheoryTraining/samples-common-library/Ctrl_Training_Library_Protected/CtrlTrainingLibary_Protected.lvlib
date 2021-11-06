@@ -14,5 +14,6 @@
 		<Item Name="CtrlTrain_Digital_One_Shot.vi" Type="VI" URL="../CtrlTrain_Digital_One_Shot.vi"/>
 		<Item Name="CtrlTrain_Digital_SR_FlipFlop.vi" Type="VI" URL="../CtrlTrain_Digital_SR_FlipFlop.vi"/>
 	</Item>
+	<Item Name="ReadMe.txt" Type="Document" URL="../ReadMe.txt"/>
 </Library>
-<?sig 650197C37A513DD9D91CF46DBC45394A?>
+<?sig 644FBEFF124349401EE0F9AF2E1FBDE8?>
