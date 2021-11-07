@@ -11,10 +11,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Module-07-Finite-State-Machines" Type="Folder">
-			<Item Name="CubeGrabeState_ENUM.ctl" Type="VI" URL="../CubeGrabeState_ENUM.ctl"/>
-			<Item Name="module-07-sample-7-1-ALT.vi" Type="VI" URL="../module-07-sample-7-1-ALT.vi"/>
-			<Item Name="module-07-sample-7-1-ALT2.vi" Type="VI" URL="../module-07-sample-7-1-ALT2.vi"/>
-			<Item Name="module-07-sample-7-1.vi" Type="VI" URL="../module-07-sample-7-1.vi"/>
+			<Item Name="DiscShooterState_ENUM.ctl" Type="VI" URL="../DiscShooterState_ENUM.ctl"/>
+			<Item Name="module-07-exercise-7-2-ENUM-template.vi" Type="VI" URL="../module-07-exercise-7-2-ENUM-template.vi"/>
+			<Item Name="module-07-exercise-7-2-template.vi" Type="VI" URL="../module-07-exercise-7-2-template.vi"/>
 		</Item>
 		<Item Name="CtrlTrainingLibary_Protected.lvlib" Type="Library" URL="../../../samples-common-library/Ctrl_Training_Library_Protected/CtrlTrainingLibary_Protected.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -57,14 +56,14 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="module-07-sample-7-1" Type="EXE">
+			<Item Name="module-07-exercise-7-2" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{A2116886-D812-428F-B4EE-6759A3508997}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{08AFBED6-51CA-4242-8774-DBA26984DF79}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{12D8DC27-4DA7-4462-A303-C51F0060E526}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">module-07-sample-7-1</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">module-07-exercise-7-2</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -72,10 +71,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3B634E1B-9383-438E-86D4-6C9455EE9F4C}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">ctrl-train-mod-07-sample-7-1.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../exe/ctrl-train-mod-07-sample-7-1.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">ctrl-train-mod-07-exercise-7-2.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../exe/ctrl-train-mod-07-exercise-7-2.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -83,40 +82,40 @@
 				<Property Name="Destination[1].path" Type="Path">../exe/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9CB2B628-DD59-4B56-9F4D-824D268BAD44}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0A8A4967-5181-4CAF-8E23-013E1E30E3B7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Module-07-Finite-State-Machines/module-07-sample-7-1.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Module-07-Finite-State-Machines/module-07-exercise-7-2-template.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">state machine sample</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">state machine exercise template</Property>
 				<Property Name="TgtF_internalName" Type="Str">control theory training</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Jim Simpson</Property>
 				<Property Name="TgtF_productName" Type="Str">control theory training</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A3C09F47-653E-4652-848F-92A98514E350}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">ctrl-train-mod-07-sample-7-1.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">ctrl-train-mod-07-exercise-7-2.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="module-07-sample-7-1ALT" Type="EXE">
+			<Item Name="module-07-exercise-7-2-ENUM" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{77B86D71-8902-4408-882D-CB76B362D0B5}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{4F830A78-30BD-4CE9-9DDA-6C7F1C4B4F23}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{C90F1135-6877-462B-B45F-92419FCAD16F}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{D69EB18E-73AB-405B-B00D-3F43EC5F2EAE}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{D7952CD5-B6A6-4823-886C-EB25A6925852}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">module-07-sample-7-1ALT</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{94EDE62E-DB7D-4AEF-84A7-22DC66074AB5}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">module-07-exercise-7-2-ENUM</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../exe</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{09D9A9AD-CCC6-4709-8859-5EEDD48DF108}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{07B6329E-5362-4DD6-8754-C4E14015D3F1}</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">ctrl-train-mod-07-sample-7-1ALT.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../exe/ctrl-train-mod-07-sample-7-1ALT.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">ctrl-train-mod-07-exercise-7-2-ENUM.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../exe/ctrl-train-mod-07-exercise-7-2-ENUM.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -124,69 +123,22 @@
 				<Property Name="Destination[1].path" Type="Path">../exe/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9CB2B628-DD59-4B56-9F4D-824D268BAD44}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0A8A4967-5181-4CAF-8E23-013E1E30E3B7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Module-07-Finite-State-Machines/module-07-sample-7-1.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Module-07-Finite-State-Machines/module-07-exercise-7-2-template.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Module-07-Finite-State-Machines/module-07-sample-7-1-ALT.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Module-07-Finite-State-Machines/module-07-exercise-7-2-ENUM-template.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">state machine sample</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">state machine exercise template</Property>
 				<Property Name="TgtF_internalName" Type="Str">control theory training</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Jim Simpson</Property>
 				<Property Name="TgtF_productName" Type="Str">control theory training</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{A1167DD4-26E4-46FD-9B2C-536B895E3BC4}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">ctrl-train-mod-07-sample-7-1ALT.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="module-07-sample-7-1ALT2" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{90B848C3-78FE-4039-80A6-A53E1DB6936E}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{1CB3CC19-CCBB-4321-A106-E86A3F5DD5ED}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{9A2A2E86-7BAD-4C26-8D22-85529450C6E9}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">module-07-sample-7-1ALT2</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../exe</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{95A023C7-D969-4D6B-BB74-62F373C897D7}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">ctrl-train-mod-07-sample-7-1ALT2.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../exe/ctrl-train-mod-07-sample-7-1ALT2.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../exe/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1F35EF71-D7F0-4BC6-ABAA-1F8E33DBE13D}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Module-07-Finite-State-Machines/module-07-sample-7-1.vi</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Module-07-Finite-State-Machines/module-07-sample-7-1-ALT.vi</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Module-07-Finite-State-Machines/module-07-sample-7-1-ALT2.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">state machine sample with ENUM</Property>
-				<Property Name="TgtF_internalName" Type="Str">control theory training</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Jim Simpson</Property>
-				<Property Name="TgtF_productName" Type="Str">control theory training</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{9C134C22-3004-4640-8D35-49838A8F2FC5}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">ctrl-train-mod-07-sample-7-1ALT2.exe</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{51412001-55AF-4213-9ED7-D3212007A5F6}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">ctrl-train-mod-07-exercise-7-2-ENUM.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
