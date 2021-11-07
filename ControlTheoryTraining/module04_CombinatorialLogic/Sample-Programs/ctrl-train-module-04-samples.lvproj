@@ -35,7 +35,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AEAA35C1-DB2E-41D6-BA0E-167E02DF8B6A}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ctrl-train-mod-04-and-nand.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../exe/ctrl-train-mod-04-and-nand.exe</Property>
@@ -76,7 +76,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{ADA7B320-94A2-4EBF-AD0D-C33ED563D3BF}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ctrl-train-mod-04-or-nor.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../exe/ctrl-train-mod-04-or-nor.exe</Property>
@@ -120,7 +120,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{55FB7431-DFF5-4A8E-823D-A7946A91AEA3}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ctrl-train-mod-04-sample-4-1.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../exe/ctrl-train-mod-04-sample-4-1.exe</Property>
@@ -161,7 +161,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{68E3F1AD-AFA0-42C7-9BA3-9E4A469AD88D}</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ctrl-train-mod-04-xor-not.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../exe/ctrl-train-mod-04-xor-not.exe</Property>

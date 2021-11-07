@@ -5,6 +5,15 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Analog_Data_Acquisition" Type="Folder">
+		<Item Name="CtrlTrain_Analog_Filter_Lag.vi" Type="VI" URL="../CtrlTrain_Analog_Filter_Lag.vi"/>
+		<Item Name="CtrlTrain_Analog_HighLowLimit.vi" Type="VI" URL="../CtrlTrain_Analog_HighLowLimit.vi"/>
+		<Item Name="CtrlTrain_Analog_HighSelect.vi" Type="VI" URL="../CtrlTrain_Analog_HighSelect.vi"/>
+		<Item Name="CtrlTrain_Analog_LowSelect.vi" Type="VI" URL="../CtrlTrain_Analog_LowSelect.vi"/>
+		<Item Name="CtrlTrain_Analog_Rate.vi" Type="VI" URL="../CtrlTrain_Analog_Rate.vi"/>
+		<Item Name="CtrlTrain_Analog_Scale.vi" Type="VI" URL="../CtrlTrain_Analog_Scale.vi"/>
+		<Item Name="CtrlTrain_Analog_Transfer.vi" Type="VI" URL="../CtrlTrain_Analog_Transfer.vi"/>
+	</Item>
 	<Item Name="Digital_Sequential_Logic" Type="Folder">
 		<Item Name="CtrlTrain_Digital_Edge_Change.vi" Type="VI" URL="../CtrlTrain_Digital_Edge_Change.vi"/>
 		<Item Name="CtrlTrain_Digital_Edge_One.vi" Type="VI" URL="../CtrlTrain_Digital_Edge_One.vi"/>
@@ -16,4 +25,4 @@
 	</Item>
 	<Item Name="ReadMe.txt" Type="Document" URL="../ReadMe.txt"/>
 </Library>
-<?sig 644FBEFF124349401EE0F9AF2E1FBDE8?>
+<?sig 7FFAA4355261FFCD77075C04944E5AB9?>
