@@ -14,6 +14,9 @@
 		<Item Name="CtrlTrain_Analog_Scale.vi" Type="VI" URL="../CtrlTrain_Analog_Scale.vi"/>
 		<Item Name="CtrlTrain_Analog_Transfer.vi" Type="VI" URL="../CtrlTrain_Analog_Transfer.vi"/>
 	</Item>
+	<Item Name="Analog_Position_Control" Type="Folder">
+		<Item Name="CtrlTrain_Analog_Position_Control.vi" Type="VI" URL="../CtrlTrain_Analog_Position_Control.vi"/>
+	</Item>
 	<Item Name="Digital_Sequential_Logic" Type="Folder">
 		<Item Name="CtrlTrain_Digital_Edge_Change.vi" Type="VI" URL="../CtrlTrain_Digital_Edge_Change.vi"/>
 		<Item Name="CtrlTrain_Digital_Edge_One.vi" Type="VI" URL="../CtrlTrain_Digital_Edge_One.vi"/>
@@ -23,6 +26,9 @@
 		<Item Name="CtrlTrain_Digital_One_Shot.vi" Type="VI" URL="../CtrlTrain_Digital_One_Shot.vi"/>
 		<Item Name="CtrlTrain_Digital_SR_FlipFlop.vi" Type="VI" URL="../CtrlTrain_Digital_SR_FlipFlop.vi"/>
 	</Item>
+	<Item Name="TypeDefs" Type="Folder">
+		<Item Name="CtrlTrain_Pos_ctrl_TuningParameters.ctl" Type="VI" URL="../CtrlTrain_Pos_ctrl_TuningParameters.ctl"/>
+	</Item>
 	<Item Name="ReadMe.txt" Type="Document" URL="../ReadMe.txt"/>
 </Library>
-<?sig 7FFAA4355261FFCD77075C04944E5AB9?>
+<?sig 091D3F9C598AB8269681AB7B00D8DAE5?>
