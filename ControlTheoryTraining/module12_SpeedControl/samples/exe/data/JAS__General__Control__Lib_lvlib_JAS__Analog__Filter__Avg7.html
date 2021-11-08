@@ -1,0 +1,42 @@
+<HTML>
+<HEAD>
+<TITLE>JAS_General_Control_Lib.lvlib:JAS_Analog_Filter_Avg7.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="JAS_General_Control_Lib.lvlib:JAS_Analog_Filter_Avg7.vi"></A><H2>JAS_General_Control_Lib.lvlib:JAS_Analog_Filter_Avg7.vi</H2>
+<P>This VI averages the last seven samples of an analog value. The sample rate is determined by how often this VI is called. No consideration is given to the time between samples. Filtering can be enabled or disabled. When disabled the input value is passed directly to the output</P>
+<P><IMG SRC="JAS__General__Control__Lib_lvlib_JAS__Analog__Filter__Avg7c.png" ALT="JAS_General_Control_Lib.lvlib:JAS_Analog_Filter_Avg7.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cdbl.png" ALT="cdbl"></P>
+</TD>
+<TD>
+<B>Value_Input</B> <P>The input value (Required)</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Enable</B> <P>Enable filtering. If disabled the input value is passed directly to the output. Default: Enabled. (Optional)</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>Value_Output</B> <P>Output value. When filtering is enabled this is the filtered value. When disabled this is equal to the input.</P>
+</TD>
+</TR>
+</Table>
+</BODY>
+</HTML>
