@@ -2,7 +2,27 @@
 
 This material is an UNOFFICIAL set of training materials for the FRC robotics competition.  It focuses on the use of LabVIEW to program robots.  There is also a separate section containing some control theory training.  This training can be used with any programming language.
 
-I am not the originator of the Secret Book of FRC LabVIEW.  That individual is no longer involved with a First FRC team.  This update adds additional information and revises the book for the latest control system hardware.  See the book's introduction for additional information.
+---
+## The Secret Book Of FRC LabVIEW
+
+This book strives to provide the reader with everything needed to learn LabVIEW, basic control system theory, and program an FRC robot using LabVIEW.  
+
+I am not the original author this book.  That individual is no longer involved with a First FRC team.  This update adds additional information and revises the book for the latest FRC control system hardware.  See the book's introduction for additional information.  Here is the book's table of contents.
+
+![TOC](SecretBookTOC.PNG)
+
+---
+## Control Theory Training
+
+This is a set of presentations about control theory that I've used with the team that I help mentor.  These presentations focus less on programming and more on control theory logic.  Most of the chapters contain sample logic and exercises.  The training applies to and can be used with any FRC programming language.  All the the examples and exercise templates are in LabVIEW though.  
+
+There is also a library of LabVIEW subVI used to assit in the completion of exercises.  Teams should write their own version of these routines for use their robot.  As such the library is designed to execute only on PCs and will fail when used on a robot.
+
+The examples make use of the the FRC LabVIEW trajectory library, https://github.com/jsimpso81/FRC_LV_TrajLib.  This library needs to be installed before using the samples.
+
+This training is evolving.  Here a list of the current presentations.
+
+![TOC](ControlTheoryTrainingTOC.PNG)
 
 
 
