@@ -56,7 +56,20 @@ See ![Contributing.md!](Contributing.md) for additional details.
 Here are links to some other training and samples.  This is not a very exhaustive list.  If you have others to add here, let me know.
 
   2020 Control Panel Training / Simulation
+  
   https://github.com/superhornets/FRC-Simulations
 
+  Team 358 LabVIEW samples  (This has links to other training too.)
+  
+  http://www.team358.org/files/programming/ControlSystem2015-2019/labview/index.php
+  
+  
+  Trajectory / Control Library (top link is library.  Bottom link is samples and utilities)
+  
+  https://github.com/jsimpso81/FRC_LV_TrajLib
+  
+  https://github.com/jsimpso81/FRC_LV_TrajLib_Util_and_Samp
+  
+  
 ---
-File last updated: 11/07/2021
+File last updated: 11/15/2021
