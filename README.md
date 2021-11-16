@@ -49,5 +49,14 @@ Contributions of enhancements, bug fixes, and new routines are welcome.  If new 
 should be written solely by FRC student members, with confirmation from a mentor on their team to be able to be candidates for inclusion.  
 See ![Contributing.md!](Contributing.md) for additional details.
 
+
+---
+## Other Training Resources
+
+Here are links to some other training and samples.  This is not a very exhaustive list.  If you have others to add here, let me know.
+
+  2020 Control Panel Training / Simulation
+  https://github.com/superhornets/FRC-Simulations
+
 ---
 File last updated: 11/07/2021
